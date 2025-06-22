@@ -1,13 +1,14 @@
-#BackTracking Notes
+# BackTracking Notes
 
 
 BackTracking is the type of recursion which helps us to skip the unnecessary operations.
 
 BackTracking is very helpful when there is large no. of choices.
 
-##Psuedo Code for BackTracking
+## Psuedo Code for BackTracking
 
-'void solve(...){
+```cpp
+void solve(...){
       //base condition
       if(isSolved(...) == true)
           save/print
@@ -17,6 +18,5 @@ BackTracking is very helpful when there is large no. of choices.
             solve(...);
       }
  return;
-}
-'
+} 
 
